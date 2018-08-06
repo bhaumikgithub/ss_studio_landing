@@ -24,9 +24,9 @@ staging:
   <<: *default
   host: localhost
   pool: 5
-  database: ss_studio_landing_staging
-  username: "ss_studio_landing"
-  password: "ss_studio_landing"
+  database: ss_studio_api_staging
+  username: "ss_studio_api"
+  password: "ss_studio_api"
 
 production:
   <<: *default
