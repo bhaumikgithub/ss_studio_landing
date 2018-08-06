@@ -1,0 +1,7 @@
+#error_explanation ul{
+  list-style: none;
+  color: red;
+}
+.error{
+  color: red;
+}

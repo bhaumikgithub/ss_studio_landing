@@ -320,21 +320,33 @@
                        <%= image_tag "footer-mail-icon.png", class: "img-responsive title-icon", align: "center"  %>
                         <h2 class="section-title">For more query</h2>
                     </div>
-                    <form class="contact-form">
-                        <div class="form-group custom-form-group">
-                            <input type="text" class="form-control custom-form-control" id="" placeholder="Name">
+                    <%= form_tag url_for(:controller => 'landing', :action => 'create'), :method => 'post',class: "contact-form" do |f| %>
+                      <% if @errors.present? %>
+                        <div id='error_explanation'>
+                          <ul>
+                            <% @errors.each do |msg| %>
+                              <li><%= msg %></li>
+                            <% end %>
+                          </ul>
                         </div>
-                        <div class="form-group custom-form-group">
-                            <input type="email" class="form-control custom-form-control" id="" placeholder="Email Address">
-                        </div>
-                        <div class="form-group custom-form-group">
-                            <input type="text" class="form-control custom-form-control" id="" placeholder="Phone Number">
-                        </div>
-                        <div class="form-group custom-form-group">
-                            <textarea class="form-control custom-form-control" id="" rows="3" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
-                    </form>
+                      <% end %>
+                      <div class="form-group custom-form-group">
+                        <%= text_field_tag :name,nil, placeholder: "Name", class: 'form-control custom-form-control', name: "contact_message[name]", required: true%>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= email_field_tag :email, nil, placeholder: "Email Address", class: 'form-control custom-form-control', name: "contact_message[email]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= text_field_tag :phone_number, nil, placeholder: "Phone Number", class: 'form-control custom-form-control', name: "contact_message[phone]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= text_area_tag :message, nil, rows: "3", class: "form-control custom-form-control", placeholder: "Message", name: "contact_message[message]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= number_field_tag :captcha, nil, placeholder: "What is answer of 4x7?", class: 'form-control custom-form-control', name: "contact_message[captcha]", required: true, :"data-equals" => 28 %>
+                      </div>
+                      <%= submit_tag "Submit", class: "btn btn-primary submit-btn" %>
+                    <% end %>
                 </div>
                 <div class="contact-detail-wrap">
                     <div class="icon-wrap">
@@ -382,15 +394,27 @@
         </div>
     </div>
 </section>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 <script type="text/javascript">
-        $(document).ready( function(){
-            $(window).resize(function(){
-                resizeScreen();
-            });
-            resizeScreen();
-        });
-
-        function resizeScreen(){
-            $("#videoframe").height($("#videoframe").width()/1.78);
-        }
-    </script>
+  jQuery.validator.addMethod("equal", function(value, element, param) {
+    return this.optional(element) || value == param;
+  }, "Captcha is invalid. Please Enter valid captcha");
+  $(document).ready( function(){
+    $(window).resize(function(){
+      resizeScreen();
+    });
+    resizeScreen();
+    $(".contact-form").validate({
+      rules: {
+        "contact_message[name]": { required: true},
+        "contact_message[email]": { required: true, email: true },
+        "contact_message[message]": { required: true },
+        "contact_message[phone]": { required: true, number: true },
+        "contact_message[captcha]": { required: true, equal: "28" }
+      }
+    });
+  });
+  function resizeScreen(){
+    $("#videoframe").height($("#videoframe").width()/1.78);
+  }
+</script>
