@@ -20,6 +20,18 @@ test:
   <<: *default
   database: db/test
 
+staging:
+  <<: *default
+  host: localhost
+  pool: 5
+  database: ss_studio_api_staging
+  username: "username"
+  password: "password"
+
 production:
   <<: *default
-  database: db/production
+  host: localhost
+  pool: 5
+  database: ss_studio_api_production
+  username: "username"
+  password: "password"
