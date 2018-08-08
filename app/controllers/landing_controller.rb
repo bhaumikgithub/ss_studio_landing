@@ -7,6 +7,7 @@ class LandingController < ApplicationController
     require 'json'
     response = call_api
     if response.kind_of? Net::HTTPSuccess
+      flash[:success] = "Your inquiry recieved, We will get back to you shortly."
       redirect_to root_path
     else
       json_response = JSON.parse(response.body)
