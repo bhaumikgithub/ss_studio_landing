@@ -100,7 +100,7 @@ button:focus,
 }
 .bottom-icon-section{
   position: absolute;
-  bottom: -70px;
+  bottom: 120px;
   width: 100%;
 
 }
@@ -278,7 +278,7 @@ button:focus,
 .plan-details{
   list-style: none;
   padding: 20px 30px 5px 20px;
-  min-height: 275px;
+  min-height: 290px;
 }
 .plan-details li{
   position: relative;
@@ -434,6 +434,12 @@ button:focus,
 
   /* Smaller than standard 960 (devices and browsers) */
   @media only screen and (max-width: 1024px) {
+    .bottom-icon-section{
+      bottom: 80px;
+    }
+    .plan-details{
+      min-height: 291px;
+    }
     
   }
 
@@ -511,7 +517,7 @@ button:focus,
       padding-left: 25px;
     }
     .bottom-icon-section{
-      bottom: -100px;
+      bottom: 60px;
     }
     .how-it-work .content{
         max-width: 90%;
@@ -556,7 +562,7 @@ button:focus,
     .plan-details {
       list-style: none;
       padding: 15px 15px 5px 15px;
-      min-height: 240px;
+      min-height: 272px;
     }
     .plan-details li {
       font-size: 15px;
@@ -692,11 +698,15 @@ button:focus,
     }
     .section-subtitle {
       font-size: 18px;
-      margin: 15px 0px 5px;
+      margin: 15px 0px 10px;
     }
     .section-title-desc {
       font-size: 16px;
       margin-bottom: 30px;
+      margin-top: 10px;
+    }
+    .plan-details{
+      min-height: 285px;
     }
     .plan-details li {
       font-size: 14px;
@@ -762,7 +772,7 @@ button:focus,
       font-size: 28px;
     }
     .top_section {
-      min-height: 290px;
+      min-height: 300px;
     }
     .top_section_content h1 {
       font-size: 28px;
@@ -774,8 +784,14 @@ button:focus,
     .bottom-icon-section {
       bottom: 35px;
     }
+    .how-it-work .how-it-block-2{
+      background-position: 0 100%;
+    }
     .how-it-work .how-it-block-1{
       padding-top: 10px;
+    }
+    .how-it-work .number{
+      color: rgb(119, 119, 119);;
     }
     .how-it-work .left-pad {
       padding-left: 15px;
@@ -783,14 +799,19 @@ button:focus,
     }
     .how-it-work .content{
       margin-bottom: 0;
+      line-height: 1.5
     }
     .how-it-work .content-title {
       font-size: 16px;
       margin: 5px 0;
     }
     .view-demo-online .left-design {
-      bottom: -75px;
-      max-width: 70px;
+        bottom: 50px;
+        max-width: 60px;
+        z-index: 0;
+        left: auto;
+        right: 0;
+        transform: rotate(180deg);
     }
     .view-demo-online .online-details-wrap .title {
       font-size: 18px;
@@ -819,6 +840,9 @@ button:focus,
     .feature-right-content-wrap{
       padding-left: 0;
     }
+    .plan-details {
+      min-height: 100%; 
+    }
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -845,9 +869,9 @@ button:focus,
       font-size: 26px;
     }
     .top_section_content .banner-btn-wrap .btn {
-      min-width: 50px;
-      font-size: 16px;
-      padding: 2px 0;
+        min-width: 65px;
+        font-size: 16px;
+        padding: 2px 5px;
     }
     .top_section_content .banner-btn-wrap .btn:last-child {
       margin-left: 15px;
@@ -866,6 +890,17 @@ button:focus,
 
   /* Small Mobile devices */
   @media only screen and (max-width: 360px) {
+    .top_section_content {
+        margin-top: 15px;
+    }
+    .view-demo-online .right-design, .view-demo-online .left-design{
+      max-width: 55px;
+    }
+    .view-demo-online .left-design {
+      bottom: 70px;
+      max-width: 50px;
+    }
+
     
   }
   
