@@ -98,7 +98,7 @@
             <div class="row align-items-center">
                 <div class="col-sm">
                     <!-- <img src="images/how_work_img_2.png" alt="" class="img-fluid"> -->
-                    <%= image_tag "how_work_img_2.png", class: "img-fluid" %>
+                    <%= image_tag "how_work_img_2.png", class: "img-fluid d-none d-sm-block" %>
                 </div>
                 <div class="col-sm left-pad">
                     <div class="number">I am Capturing photos</div>
@@ -131,8 +131,10 @@
                 <div class="online-details-wrap">
                     <h3 class="title">View Online Demo Now !</h3>
                     <div class="content">
-                         <a href="http://104.251.216.241/demo/ss_studio/sagar" target="_blank" class="btn btn-primary demo-btn">Microsite</a>
-                         <a style="margin-bottom: 10px;" href="http://104.251.216.241/demo/ss_studio/admin"  target="_blank" class="btn btn-primary demo-btn">Admin</a>
+                        <div class="d-block">
+                           <a href="http://104.251.216.241/demo/ss_studio/sagar" target="_blank" class="btn btn-primary demo-btn mr-md-0 mr-2 d-inline-block d-md-block align-middle">Microsite</a>
+                           <a href="http://104.251.216.241/demo/ss_studio/admin"  target="_blank" class="btn btn-primary demo-btn d-inline-block d-md-block align-middle mb-md-3">Admin</a>
+                       </div>
 
                         <div class="content-wrap d-inline-block">
                             <!-- <img src="images/user-icon.png" class="d-inline-block img-fluid"> -->

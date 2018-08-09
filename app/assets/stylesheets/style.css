@@ -149,7 +149,7 @@ button:focus,
 .view-demo-online{
   background: url(online_demo_banner.jpg)no-repeat;
   position: relative;
-  padding:40px 0px 0px;
+  padding:20px 0px 15px;
 }
 .view-demo-online .right-design{
   position: absolute;
@@ -651,7 +651,7 @@ button:focus,
       line-height: 1.32;
     }
     .view-demo-online{
-      padding: 0px;
+      padding: 25px 0px 0px;
     }
     .view-demo-online .online-details-wrap .demo-btn {
       max-width: 170px;
@@ -686,13 +686,12 @@ button:focus,
       margin-top: 25px;
     } */
     .feature-wrap.left-bar .feature-title,
-    .feature-wrap.left-bar .feature-desc{
-      color: #004281;
-    }
+    .feature-wrap.left-bar .feature-desc,
     .feature-wrap.right-bar .feature-title,
     .feature-wrap.right-bar .feature-desc{
-      color: #54b5cf;
+      color: #004281;
     }
+   
     .pricing-section {
       padding: 0 0 20px;
     }
@@ -785,11 +784,12 @@ button:focus,
       bottom: 35px;
     }
     .how-it-work .how-it-block-2{
-      background-position: 0 100%;
+      background: none;
     }
     .how-it-work .how-it-block-1{
       padding-top: 10px;
     }
+
     .how-it-work .number{
       color: rgb(119, 119, 119);;
     }
