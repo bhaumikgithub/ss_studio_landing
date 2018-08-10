@@ -8,3 +8,6 @@
 #flash_message{
   margin-top: 15px;
 }
+.cursor-pointer{
+	cursor: pointer;
+}

@@ -8,7 +8,7 @@
                         	<%= image_tag "logo.png", class: "img-responsive header-logo" %>
                             <!-- <img src="images/logo.png" alt="" class="img-responsive header-logo"> -->
                         </a>
-                        <button class="navbar-toggler header-toggle-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        <button class="navbar-toggler header-toggle-btn cursor-pointer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
@@ -58,7 +58,7 @@
        <!--  <img class="img-fluid float-left d-none" src="images/left_cor.png"> -->
         <a href="#">
             <!-- <img src="images/down_arrow.png" alt="" class="img-fluid"> -->
-            <%= image_tag "down_arrow.png", class: "img-fluid" %>
+            <%#= image_tag "down_arrow.png", class: "img-fluid" %>
         </a>
         <!-- <img class="img-fluid float-right d-none" src="images/right_cor.png"> -->
         <%= image_tag "right_cor.png", class: "img-fluid float-right d-none" %>
@@ -162,10 +162,10 @@
         <div class="row justify-content-between">
             <div class="col-12 text-center">
                 <h2 class="section-title">Features</h2>
-                <a href="#">
+                <!-- <a href="#"> -->
                     <!-- <img src="images/down_arrow_blue.png" alt="" class="img-fluid down-icon"> -->
                     <%= image_tag "down_arrow_blue.png", class: "img-fluid down-icon" %>
-                </a>
+                <!-- </a> -->
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="feature-wrap left-bar">
@@ -352,7 +352,7 @@
                       <div class="form-group custom-form-group">
                         <%= number_field_tag :captcha, nil, placeholder: "What is answer of 4x7?", class: 'form-control custom-form-control', name: "contact_message[captcha]", required: true, :"data-equals" => 28 %>
                       </div>
-                      <%= submit_tag "Submit", class: "btn btn-primary submit-btn" %>
+                      <%= submit_tag "Submit", class: "btn btn-primary submit-btn cursor-pointer" %>
                     <% end %>
                 </div>
                 <div class="contact-detail-wrap">
@@ -362,10 +362,10 @@
                     </div>
                     <div class="content-wrap">
                         <p>Email Address :
-                            <a href="#">info@techplussoftware.com</a>
+                            <a href="mailto:info@techplussoftware.com">info@techplussoftware.com</a>
                         </p>
                         <p>Phone Number :
-                            <a href="#">+91-94264 13898</a>
+                            <a href="callto:+919426413898">+91-94264 13898</a>
                         </p>
                         <p>Address : 2nd floor,Tulsi Complex
                             <br>Behind Sahjanand College, Aazad Society road,
