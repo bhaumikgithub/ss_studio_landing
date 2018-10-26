@@ -112,10 +112,10 @@
                     <p class="content">This platform provide you option to keep records of your client's all records. You can do following things </p>
                     <ul class="content">
                         <li>Manage micro site</li>
-                        <li>Create unlimited albums & photos</li>                            
+                        <li>Create unlimited albums & photos</li>
                         <li>Create homepage gallery</li>
                         <li>Share publically or privately</li>
-                        <li>Add watermark automatically</li>     
+                        <li>Add watermark automatically</li>
                         <li>You can manage your portfolio (video and photos)</li>
                         <li>Your client can choose photos privately</li>
                         <li>Your client can comment on photos</li>
@@ -152,9 +152,6 @@
                             <%= image_tag "password-icon.png", class: "d-inline-block img-fluid" %>
                             <span class="content-detail">Password : hello123</span>
                         </div>
-                        
-                       
-                        
                     </div>
                 </div>
             </div>
@@ -211,7 +208,6 @@
                         </p>
                     </div>
                 </div>
-               
                 <div class="feature-wrap left-bar">
                     <div class="img-wrap text-center d-inline-block">
                         <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/group-icon.png"> -->
@@ -239,7 +235,6 @@
                             <p class="feature-desc">Use this site as your website and share. You can manage your Site About Us, Contact us, Testimonial, Inquiries.</p>
                         </div>
                     </div>
-                   
                     <div class="feature-wrap right-bar">
                         <div class="img-wrap text-center d-inline-block">
                             <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/draw-sheet-icon.png"> -->
@@ -285,7 +280,7 @@
                 <div class="pricing-box-wrap">
                     <div class="title-wrap text-center">
                         <h3 class="price-title">First Year</h3>
-                        <h4 class="price-sub-title"><s>Rs. 25,000</s> Rs.20,000</h4>
+                        <h4 class="price-sub-title"><s><%= @get_location.first.country === "IN" ? 'Rs. 25,000' : '330 USD' %></s><%= @get_location.first.country === "IN" ? ' Rs.20,000' : ' 200 USD' %></h4>
                     </div>
                     <div class="content-wrap">
                         <ul class="plan-details">
@@ -303,7 +298,7 @@
                 <div class="pricing-box-wrap">
                     <div class="title-wrap text-center">
                         <h3 class="price-title">After 1 year Maintenance</h3>
-                        <h4 class="price-sub-title">Rs. 6,000 per Year</h4>
+                        <h4 class="price-sub-title"><%= @get_location.first.country === "IN" ? 'Rs. 6,000' : '100 USD' %> per Year</h4>
                     </div>
                     <div class="content-wrap">
                         <ul class="plan-details">
@@ -319,7 +314,6 @@
 		<div class="col-sm-12 mt-3		" style="text-align: center;">
                 <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started</a>
             </div>
-            
         </div>
     </div>
 </section>
@@ -368,7 +362,7 @@
                     </div>
                     <div class="content-wrap">
                         <p>Email Address :
-                            <a href="mailto:info@techplussoftware.com">info@techplussoftware.com</a>
+                            <a href="mailto:info@afterclix.com">info@afterclix.com</a>
                         </p>
                         <p>Phone Number :
                             <a href="tel:+919426413898">+91-94264 13898</a>
@@ -395,14 +389,12 @@
                     <!-- <img src="images/fb-icon.png" class="img-responsive" /> -->
                     <%= image_tag "fb-icon.png", class: "img-responsive" %>
                 </a>
-                <a href="#" class="footer-links">
-                    <!-- <img src="images/twitter-icon.png" class="img-responsive" /> -->
+                <!-- <a href="#" class="footer-links">
                     <%= image_tag "twitter-icon.png", class: "img-responsive" %>
                 </a>
                 <a href="#" class="footer-links">
-                    <!-- <img src="images/g-plus-icon.png" class="img-responsive" /> -->
                     <%= image_tag "g-plus-icon.png", class: "img-responsive" %>
-                </a>
+                </a> -->
             </div>
         </div>
     </div>

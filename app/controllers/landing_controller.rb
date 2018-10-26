@@ -1,5 +1,7 @@
 class LandingController < ApplicationController
   def index
+    remote_ip_addr = request.remote_ip == '::1' || request.remote_ip == '127.0.0.1' ? '202.131.102.54' : request.remote_ip
+    @get_location = Geocoder.search(remote_ip_addr)
   end
 
   def create
