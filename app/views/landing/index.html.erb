@@ -93,87 +93,87 @@
           <div class="carousel-item text-center active">
               <!-- <img src="images/online_demo_banner.jpg" class="img-fluid"> -->
               <%= image_tag "01_album_management.png", class: "img-fluid active" %>
-              <div class="carousel-caption d-block">
+              <!-- <div class="carousel-caption d-block">
                   <h5>Slide1</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "02_photo-management.png", class: "img-fluid" %>
-              <div class="carousel-caption d-block">
+              <!-- <div class="carousel-caption d-block">
                   <h5>Slide2</h5>
                   <p>Lorem ipsum dolllaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "03_site_management.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide3</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "04_share-album.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide4</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "04_your_website_homepage.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide5</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "05_album_with_categories.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide6</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "06_video_gallery.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide7</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "07_services.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide8</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "08_testimonial.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide9</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "09_about_us.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide10</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "10_contact_us.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide11</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
           <div class="carousel-item">
               <%= image_tag "11_photo_selection.png", class: "img-fluid" %>
-               <div class="carousel-caption d-block">
+               <!-- <div class="carousel-caption d-block">
                   <h5>Slide12</h5>
                   <p>Lorem ipsum dollaer amet</p>
-               </div>
+               </div> -->
           </div>
         </div>
         <!-- Left and right controls -->
@@ -332,17 +332,19 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="section-title">Pricing</h2>
-                <h4 class="section-subtitle">15 Days Free Trial</h4>
+                <!-- <h4 class="section-subtitle">15 Days Free Trial</h4>
                 <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started</a>
-                <div class="section-title-desc">I am interested in Free Trial before subscribe</div>
+                <div class="section-title-desc">I am interested in Free Trial before subscribe</div> -->
+                <div class="section-title-desc"></div>
 
 
             </div>
             <div class="col-md-5 col-sm-6">
                 <div class="pricing-box-wrap">
-                    <div class="title-wrap text-center">
+                    <div class="title-wrap text-center free-price">
                         <h3 class="price-title">First Year</h3>
-                        <h4 class="price-sub-title"><s><%= @get_location.first.country === "IN" ? 'Rs. 25,000' : '330 USD' %></s><%= @get_location.first.country === "IN" ? ' Rs.20,000' : ' 200 USD' %></h4>
+                        <h4 class="price-sub-title"><s><%= @get_location.first.country === "IN" ? 'Rs. 25,000' : '330 USD' %></s><%= @get_location.first.country === "IN" ? ' FREE' : ' 200 USD' %></h4>
+                        <div class="font-size-14">It's FREE for first year until 31st December 2018</div>
                     </div>
                     <div class="content-wrap">
                         <ul class="plan-details">
@@ -360,7 +362,7 @@
                 <div class="pricing-box-wrap">
                     <div class="title-wrap text-center">
                         <h3 class="price-title">After 1 year Maintenance</h3>
-                        <h4 class="price-sub-title"><%= @get_location.first.country === "IN" ? 'Rs. 6,000' : '100 USD' %> per Year</h4>
+                        <h4 class="price-sub-title"><%= @get_location.first.country === "IN" ? 'Rs. 7,000' : '100 USD' %> per Year</h4>
                     </div>
                     <div class="content-wrap">
                         <ul class="plan-details">
@@ -373,8 +375,9 @@
                     </div>
                 </div>
             </div>
+            <div>You can cancel subscription anytime. No charge will be applicable.</div>
 		<div class="col-sm-12 mt-3		" style="text-align: center;">
-                <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started</a>
+                <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started FREE</a>
             </div>
         </div>
     </div>
