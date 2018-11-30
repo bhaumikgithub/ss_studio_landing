@@ -404,7 +404,9 @@ button:focus,
   position: absolute;
   bottom: 0;
 }
-
+.footer-copyright-text{
+  text-align: center;
+}
 
 
 
