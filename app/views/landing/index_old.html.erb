@@ -1,0 +1,493 @@
+
+<section class="top_section" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-none">
+                <nav class="navbar navbar-expand-lg custom-navbar">
+                    <div class="col-lg-3 col-md-12">
+                        <a class="navbar-brand" href="#">
+                          <%= image_tag "logo.png", class: "img-responsive header-logo" %>
+                            <!-- <img src="images/logo.png" alt="" class="img-responsive header-logo"> -->
+                        </a>
+                        <button class="navbar-toggler header-toggle-btn cursor-pointer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="col-lg-9 col-md-12 custom_nav_wrap">
+                        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#formyself">How it works</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#demo">Demo</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#prices">Prices</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Demo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>">Signup</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<%= "#{ENV['REACT_BASE_URL']}/admin" %>">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            </nav>
+            <div class="col-12 p-none">
+              <div id="flash_message">
+                <%= render "shared/flash_messages" %>
+              </div>
+            </div>
+            <div class="top_section_content text-center col-12">
+                <h1>Store & Share photos/albums & videos to customer Publicly or Privately. </h1>
+                <div class="banner-btn-wrap">
+                    <a href="#features" class="btn btn-primary">See How</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-icon-section text-center">
+      <%= image_tag "left_cor.png", class: "img-fluid float-left d-none" %>
+       <!--  <img class="img-fluid float-left d-none" src="images/left_cor.png"> -->
+        <a href="#">
+            <!-- <img src="images/down_arrow.png" alt="" class="img-fluid"> -->
+            <%#= image_tag "down_arrow.png", class: "img-fluid" %>
+        </a>
+        <!-- <img class="img-fluid float-right d-none" src="images/right_cor.png"> -->
+        <%= image_tag "right_cor.png", class: "img-fluid float-right d-none" %>
+    </div>
+</section>
+<section class="how-it-work">
+  <div class="how-it-block-1 custom-pad">
+    <div class="container container-sm-full-width">
+      <div id="slider" class="carousel slide rounded-border" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#slider" data-slide-to="0" class=""></li>
+          <li data-target="#slider" data-slide-to="1" class="active"></li>
+          <li data-target="#slider" data-slide-to="2" class=""></li>
+          <li data-target="#slider" data-slide-to="3" class=""></li>
+          <li data-target="#slider" data-slide-to="4" class=""></li>
+          <li data-target="#slider" data-slide-to="5" class=""></li>
+          <li data-target="#slider" data-slide-to="6" class=""></li>
+          <li data-target="#slider" data-slide-to="7" class=""></li>
+          <li data-target="#slider" data-slide-to="8" class=""></li>
+          <li data-target="#slider" data-slide-to="9" class=""></li>
+          <li data-target="#slider" data-slide-to="10" class=""></li>
+          <li data-target="#slider" data-slide-to="11" class=""></li>
+        </ol>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item text-center">
+              <!-- <img src="images/online_demo_banner.jpg" class="img-fluid"> -->
+              <%= image_tag "01_album_management.png", class: "img-fluid" %>
+              <!-- <div class="carousel-caption d-block">
+                  <h5>Slide1</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item active">
+              <%= image_tag "02_photo-management.png", class: "img-fluid active" %>
+              <!-- <div class="carousel-caption d-block">
+                  <h5>Slide2</h5>
+                  <p>Lorem ipsum dolllaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "03_site_management.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide3</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "04_share-album.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide4</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "04_your_website_homepage.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide5</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "05_album_with_categories.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide6</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "06_video_gallery.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide7</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "07_services.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide8</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "08_testimonial.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide9</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "09_about_us.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide10</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "10_contact_us.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide11</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+          <div class="carousel-item">
+              <%= image_tag "11_photo_selection.png", class: "img-fluid" %>
+               <!-- <div class="carousel-caption d-block">
+                  <h5>Slide12</h5>
+                  <p>Lorem ipsum dollaer amet</p>
+               </div> -->
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="view-demo-online" id="demo">
+    <%#= image_tag "view_online_right_cor.png", class: "img-fluid float-right right-design" %>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-7 col-12">
+                <iframe id="videoframe" width="100%" height="315" src="https://www.youtube.com/embed/hfB_WA39MSA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-5 col-12">
+                <div class="online-details-wrap">
+                    <h3 class="title">View Online Demo Now !</h3>
+                    <div class="content">
+                        <div class="d-block">
+                           <a href="<%#= "#{ENV['REACT_BASE_URL']}/sagar" %>" target="_blank" class="btn btn-primary demo-btn mr-md-0 mr-2 d-inline-block d-md-block align-middle">Microsite</a>
+                           <a href="<%#= "#{ENV['REACT_BASE_URL']}/admin" %>"  target="_blank" class="btn btn-primary demo-btn d-inline-block d-md-block align-middle mb-md-3">Admin</a>
+                       </div>
+
+                        <div class="content-wrap d-inline-block">
+                            <%#= image_tag "user-icon.png", class: "d-inline-block img-fluid" %>
+                            <span class="content-detail">Username : sagar1@gmail.com</span>
+                        </div>
+                        <div class="content-wrap d-inline-block">
+                            <%#= image_tag "password-icon.png", class: "d-inline-block img-fluid" %>
+                            <span class="content-detail">Password : hello123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%#= image_tag "view_online_left_cor.png", class: "img-fluid float-right left-design" %>
+</section> -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Features</h2>
+                <!-- <a href="#"> -->
+                    <!-- <img src="images/down_arrow_blue.png" alt="" class="img-fluid down-icon"> -->
+                    <%= image_tag "down_arrow_blue.png", class: "img-fluid down-icon" %>
+                <!-- </a> -->
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="feature-wrap left-bar">
+                    <div class="img-wrap text-center d-inline-block">
+                        <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/grid-icon.png"> -->
+                        <%= image_tag "grid-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                        <!-- <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/grid-icon-blue.png"> -->
+                        <%= image_tag "grid-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                    </div>
+                    <div class="d-inline-block">
+                        <h4 class="feature-title">Portfolio/Work Showcase</h4>
+                        <p class="feature-desc">Create your photo's portfolio to attract clients.</p>
+                    </div>
+                </div>
+                <div class="feature-wrap left-bar">
+                    <div class="img-wrap text-center d-inline-block">
+                        <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/hierarchy-icon.png"> -->
+                        <%= image_tag "hierarchy-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                        <%= image_tag "hierarchy-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                        <!-- <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/hierarchy-icon-blue.png"> -->
+                    </div>
+                    <div class="d-inline-block">
+                        <h4 class="feature-title">Album Management</h4>
+                        <p class="feature-desc">Create / Edit / Delete Unlimited albums.</p>
+                    </div>
+                </div>
+                <div class="feature-wrap left-bar">
+                    <div class="img-wrap text-center d-inline-block">
+                        <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/advertisement-icon.png">
+                        <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/advertisement-icon-blue.png"> -->
+                        <%= image_tag "advertisement-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                        <%= image_tag "advertisement-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                    </div>
+                    <div class="d-inline-block">
+                        <h4 class="feature-title">Share Publically and Privately (Password protect)</h4>
+                        <p class="feature-desc">Fully controlled albums. You can give/restrict access any time
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-wrap left-bar">
+                    <div class="img-wrap text-center d-inline-block">
+                        <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/group-icon.png"> -->
+                        <%= image_tag "group-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                        <%= image_tag "group-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                        <!-- <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/group-icon-blue.png"> -->
+                    </div>
+                    <div class="d-inline-block">
+                        <h4 class="feature-title">Allow your client to choose photos</h4>
+                        <p class="feature-desc">Allow clients to select photos from your collection. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6">
+                <div class="feature-right-content-wrap">
+                    <div class="feature-wrap right-bar">
+                        <div class="img-wrap text-center d-inline-block">
+                            <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/tablet-icon.png">
+                            <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/tablet-icon-blue.png"> -->
+                            <%= image_tag "tablet-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                            <%= image_tag "tablet-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                        </div>
+                        <div class="d-inline-block">
+                            <h4 class="feature-title">Create your own Identity (Site)</h4>
+                            <p class="feature-desc">Use this site as your website and share. You can manage your Site About Us, Contact us, Testimonial, Inquiries.</p>
+                        </div>
+                    </div>
+                    <div class="feature-wrap right-bar">
+                        <div class="img-wrap text-center d-inline-block">
+                            <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/draw-sheet-icon.png"> -->
+                            <!-- <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/draw-sheet-icon-blue.png"> -->
+                             <%= image_tag "draw-sheet-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                            <%= image_tag "draw-sheet-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                        </div>
+                        <div class="d-inline-block">
+                            <h4 class="feature-title">Watermark on photo</h4>
+                            <p class="feature-desc">Protect each photo with photographs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature-wrap right-bar">
+                        <div class="img-wrap text-center d-inline-block">
+                            <!-- <img class="img-fluid feature-icon d-none d-sm-none d-md-block" src="images/link-icon.png">
+                            <img class="img-fluid feature-icon d-md-none d-sm-block" src="images/link-icon-blue.png"> -->
+                            <%= image_tag "link-icon.png",class: "img-fluid feature-icon d-none d-sm-none d-md-block" %>
+                            <%= image_tag "link-icon-blue.png",class: "img-fluid feature-icon d-md-none d-sm-block" %>
+                        </div>
+                        <div class="d-inline-block">
+                            <h4 class="feature-title">Have your own domain and hosting</h4>
+                            <p class="feature-desc">Site will be hosted with us but domain name will remain with you. Domain name www.yourname.com will be given based on your choice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pricing-section" id="prices">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Pricing</h2>
+                <!-- <h4 class="section-subtitle">15 Days Free Trial</h4>
+                <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started</a>
+                <div class="section-title-desc">I am interested in Free Trial before subscribe</div> -->
+                <div class="section-title-desc"></div>
+
+
+            </div>
+            <div class="col-md-5 col-sm-6">
+                <div class="pricing-box-wrap">
+                    <div class="title-wrap text-center free-price">
+                        <h3 class="price-title">First Year</h3>
+                        <h4 class="price-sub-title"><s><%#= @get_location.first.country === "IN" ? 'Rs. 25,000' : '330 USD' %></s><%= @get_location.first.country === "IN" ? ' FREE' : ' 200 USD' %></h4>
+                       <!--  <div class="font-size-14">It's FREE for First Year if you subscribe before 31st December 2018.</div> -->
+                    </div>
+                    <div class="content-wrap">
+                        <ul class="plan-details">
+                            <li>Unlimited Photos and Album space
+                                <!-- <br> (Hosting will remain with us) -->
+                              </li>
+                            <!-- <li>Free Domain Name (if you do not have domain name)</li> -->
+                            <li>Full site control with all features</li>
+                            <li>Support and help</li>
+                            <li>One year free</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6">
+                <div class="pricing-box-wrap">
+                    <div class="title-wrap text-center paid-price">
+                        <h3 class="price-title">After 1 year Maintenance</h3>
+                        <h4 class="price-sub-title"><%= @get_location.first.country === "IN" ? 'Rs. 7,000' : '100 USD' %> per Year</h4>
+                    </div>
+                    <div class="content-wrap">
+                        <ul class="plan-details">
+                            <li>Unlimited Hosting space
+                                <br> (Hosting will remain with us)</li>
+                            <li>Free Domain Name (if you do not have domain name)</li>
+                            <li>New features will be added if we will have any</li>
+                            <li>Support and help</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>You can cancel subscription anytime. No charge will be applicable.</div>
+    <div class="col-sm-12 mt-3    " style="text-align: center;">
+                <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>" target="_blank" class="btn btn-primary demo-btn">Get Started FREE</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-form-wrap">
+                    <div class="contact-title-wrap justify-content-center">
+                       <!--  <img src="images/footer-mail-icon.png" class="img-responsive title-icon" align="center" /> -->
+                       <%= image_tag "footer-mail-icon.png", class: "img-responsive title-icon", align: "center"  %>
+                        <h2 class="section-title">For more query</h2>
+                    </div>
+                    <%= form_tag url_for(:controller => 'landing', :action => 'create'), :method => 'post',class: "contact-form" do |f| %>
+                      <% if @errors.present? %>
+                        <div id='error_explanation'>
+                          <ul>
+                            <% @errors.each do |msg| %>
+                              <li><%= msg %></li>
+                            <% end %>
+                          </ul>
+                        </div>
+                      <% end %>
+                      <div class="form-group custom-form-group">
+                        <%= text_field_tag :name,nil, placeholder: "Name", class: 'form-control custom-form-control', name: "contact_message[name]", required: true%>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= email_field_tag :email, nil, placeholder: "Email Address", class: 'form-control custom-form-control', name: "contact_message[email]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= text_field_tag :phone_number, nil, placeholder: "Phone Number", class: 'form-control custom-form-control', name: "contact_message[phone]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= text_area_tag :message, nil, rows: "3", class: "form-control custom-form-control", placeholder: "Message", name: "contact_message[message]", required: true %>
+                      </div>
+                      <div class="form-group custom-form-group">
+                        <%= number_field_tag :captcha, nil, placeholder: "What is answer of 4x7?", class: 'form-control custom-form-control', name: "contact_message[captcha]", required: true, :"data-equals" => 28 %>
+                      </div>
+                      <%= submit_tag "Submit", class: "btn btn-primary submit-btn cursor-pointer" %>
+                    <% end %>
+                </div>
+                <div class="contact-detail-wrap">
+                    <div class="icon-wrap">
+                        <!-- <img src="images/next-arrow.png" class="img-responsive" /> -->
+                        <%= image_tag "next-arrow.png", class: "img-responsive" %>
+                    </div>
+                    <div class="content-wrap">
+                        <p>Email Address :
+                            <a href="mailto:info@afterclix.com">info@afterclix.com</a>
+                        </p>
+                        <!-- <p>Phone Number :
+                            <a href="tel:+919426413898">+91-94264 13898</a>
+                        </p>
+                        <p>Address : 601 Shapath-1, Opp. Rajpath Club,
+                            <br> Above Gordhan Thal Restaurant,Bodakdev,
+                            <br>S.G. Highway, Ahmedabad, Gujarat 380054</p> -->
+                            <p>
+                              <a href="https://www.facebook.com/AfterClix-189097271865226" target="_blank">Facebook</a>
+                              <span>|</span>
+                              <a href="https://afterclix.wordpress.com" target="_blank">Wordpress</a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="custom-footer">
+<!--     <img src="images/footer-left-cor.png" class="img-responsive footer-corner-img" /> -->
+    <%= image_tag "footer-left-cor.png", class: "img-responsive footer-corner-img" %>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-12 footer-copyright-text">
+                <span>Copyright © 2019 AfterClix</span>
+            </div>
+            <!-- <div class="col-md-6 col-12 text-right"> -->
+                <!-- <a href="https://www.facebook.com/AfterClix-189097271865226" class="footer-links" target="_blank"> -->
+                    <!-- <img src="images/fb-icon.png" class="img-responsive" /> -->
+                    <%#= image_tag "fb-icon.png", class: "img-responsive" %>
+                <!-- </a> -->
+                <!-- <a href="#" class="footer-links">
+                    <%= image_tag "twitter-icon.png", class: "img-responsive" %>
+                </a>
+                <a href="#" class="footer-links">
+                    <%= image_tag "g-plus-icon.png", class: "img-responsive" %>
+                </a> -->
+            <!-- </div> -->
+        </div>
+    </div>
+</section>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script type="text/javascript">
+  jQuery.validator.addMethod("equal", function(value, element, param) {
+    return this.optional(element) || value == param;
+  }, "Captcha is invalid. Please Enter valid captcha");
+  $(document).ready( function(){
+    $(window).resize(function(){
+      resizeScreen();
+    });
+    resizeScreen();
+    $(".contact-form").validate({
+      rules: {
+        "contact_message[name]": { required: true},
+        "contact_message[email]": { required: true, email: true },
+        "contact_message[message]": { required: true },
+        "contact_message[phone]": { required: true, number: true },
+        "contact_message[captcha]": { required: true, equal: "28" }
+      }
+    });
+  });
+  function resizeScreen(){
+    $("#videoframe").height($("#videoframe").width()/1.78);
+  }
+</script>
