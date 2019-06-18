@@ -119,11 +119,15 @@ body {
 .myriad-pro {
   font-family: 'Myriad Pro';
 }
-
 .section--pad {
   padding: 150px 0px;
 }
-
+/*.section--pad {
+  padding: 60px 0px;
+}
+.pricing-section.section--pad{
+  padding: 150px 0px;
+}*/
 @media (max-width: 1024px) {
   .section--pad {
     padding: 75px 0px;
