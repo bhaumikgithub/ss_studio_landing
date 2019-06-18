@@ -661,13 +661,18 @@ header .portfolio-slider .stack > .sheet {
 
 .pricing-section {
   background: url(pricing/Vector-Smart-Object.png) no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
   position: relative;
   z-index: 5;
   padding-bottom: 120px !important;
-  background-position: right bottom;
+  background-position: right 60%;
 }
-
+@media (min-width: 1550px){
+  .pricing-section{
+    background-size: 100% 100%;
+    background-position: right bottom;
+  }
+}
 @media (max-width: 991px) {
   .pricing-section {
     background-size: cover;
