@@ -661,11 +661,11 @@ header .portfolio-slider .stack > .sheet {
 
 .pricing-section {
   background: url(pricing/Vector-Smart-Object.png) no-repeat;
-  background-size: auto;
+  background-size: 100% 100%;
   position: relative;
   z-index: 5;
   padding-bottom: 120px !important;
-  background-position: right 60%;
+  background-position: right bottom;
 }
 
 @media (max-width: 991px) {
@@ -793,6 +793,7 @@ footer:before {
   right: 0px;
   background: url(footer/footer_bg.png) no-repeat;
   background-position: left 100%;
+  background-size: cover;
 }
 
 footer .inquiry-form {
