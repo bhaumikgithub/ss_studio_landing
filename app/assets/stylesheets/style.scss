@@ -352,7 +352,7 @@ header{
 
 // testimonial section css starts here
 .testimonial-section{
-    background: url('../images/testimonial/map_bg.png') no-repeat;
+    background: url(testimonial/map_bg.png) no-repeat;
     background-position: center;
     background-size: auto auto;
     .slide-wrap-single{
@@ -549,7 +549,7 @@ header{
             padding: 0px;
             li{
                 padding-left: 30px;
-                background: url('../images/pricing/check_icon.svg')no-repeat;
+                background: url(pricing/check_icon.svg)no-repeat;
                 background-position: 0% 10%; 
                 background-size: 18px 14px;
                 font-size: 18px;
@@ -608,7 +608,7 @@ footer{
         bottom: 0px;
         left: 0px;
         right: 0px;
-        background: url("../images/footer/footer_bg.png")no-repeat; 
+        background: url(footer/footer_bg.png)no-repeat; 
         background-position: left 100%;
         // background-size: cover;
     }
