@@ -169,7 +169,7 @@ header{
     @media (max-width:1024px){
         padding-top: 0px;
     }
-    background: url('../images/header_bg.png')no-repeat;
+    background: url(header_bg.png)no-repeat;
     background-size: 100% 100%;
     height: 762px;
     margin-bottom: 390px;
@@ -501,7 +501,7 @@ header{
 // fetures section css ends here
 // Pricing section css starts here
 .pricing-section{
-    background: url("../images/pricing/Vector-Smart-Object.png")no-repeat;
+    background: url(pricing/Vector-Smart-Object.png)no-repeat;
     background-size: auto;
     position: relative;
     z-index: 5;
