@@ -4072,7 +4072,8 @@ header .portfolio-slider .stack > .sheet {
   font-size: 15px;
   letter-spacing: 0px;
   color: #ff4c31;
-  font-family: "Brandon Text";
+  /*font-family: "Brandon Text";*/
+  font-family: 'uni_neuebold';
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -4149,6 +4150,17 @@ footer .inquiry-form form > div:not(:last-child) {
 }
 
 footer .inquiry-form form > div:not(:last-child) input {
+  font-size: 16px;
+  padding: 0px;
+  letter-spacing: 1px;
+  color: #555555;
+  border: 0px !important;
+  outline: 0px !important;
+  box-shadow: none !important;
+  font-weight: 600;
+}
+
+footer .inquiry-form form > div:not(:last-child) textarea {
   font-size: 16px;
   padding: 0px;
   letter-spacing: 1px;
@@ -4284,21 +4296,21 @@ footer .form-group{
   font-weight: normal;
   font-style: normal;
 }
-/* line 62, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 62, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 body {
   overflow-x: hidden;
 }
 
-/* line 66, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 66, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .navbar-dark .navbar-toggler {
   border: 0px !important;
   outline: none !important;
 }
-/* line 70, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 70, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
-/* line 73, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 73, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .navbar-dark .navbar-collapse.collapsing,
 .navbar-dark .navbar-collapse.show {
   position: absolute;
@@ -4310,83 +4322,83 @@ body {
   top: 100%;
 }
 @media (max-width: 991px) {
-  /* line 73, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 73, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .navbar-dark .navbar-collapse.collapsing,
   .navbar-dark .navbar-collapse.show {
     padding: 10px 0px;
   }
 }
-/* line 87, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 87, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .navbar-dark .navbar-collapse.collapsing li.active a,
 .navbar-dark .navbar-collapse.show li.active a {
   color: #000;
   border-bottom: 1px solid #000;
 }
-/* line 92, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 92, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .navbar-dark .navbar-collapse.collapsing li a,
 .navbar-dark .navbar-collapse.show li a {
   color: #000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* line 101, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 101, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .brandonbold {
   font-family: 'brandon_textbold';
 }
 
-/* line 104, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 104, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .brandonmedium {
   font-family: 'brandon_textmedium';
 }
 
-/* line 107, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 107, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .brandonregular {
   font-family: 'brandon_textregular';
 }
 
-/* line 110, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 110, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .unibold {
   font-family: 'uni_neuebold';
 }
 
-/* line 113, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 113, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .uniregular {
   font-family: 'uni_neueregular';
 }
 
-/* line 116, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 116, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .uniheavy {
   font-family: 'uni_neueheavy';
 }
 
-/* line 119, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 119, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .myriad-pro {
   font-family: 'Myriad Pro';
 }
 
-/* line 124, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 124, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .section--pad {
   padding: 150px 0px;
 }
 @media (max-width: 1024px) {
-  /* line 124, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 124, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad {
     padding: 75px 0px;
   }
 }
 @media (max-width: 640px) {
-  /* line 124, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 124, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad {
     padding: 35px 0px;
   }
 }
 @media (max-width: 420px) {
-  /* line 124, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 124, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad {
     padding: 50px 0px;
   }
 }
-/* line 135, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 135, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .section--pad .section--title {
   font-size: 28px;
   letter-spacing: 0px;
@@ -4394,49 +4406,49 @@ body {
   line-height: 1;
 }
 @media (max-width: 991px) {
-  /* line 135, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 135, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--title {
     font-size: 24px;
   }
 }
 @media (max-width: 767px) {
-  /* line 135, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 135, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--title {
     font-size: 22px;
   }
 }
 @media (max-width: 576px) {
-  /* line 135, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 135, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--title {
     font-size: 20px;
   }
 }
-/* line 150, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 150, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .section--pad .section--subdesc {
   font-size: 20px;
   padding: 0px 15px;
   color: #56637e;
 }
 @media (max-width: 991px) {
-  /* line 150, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 150, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--subdesc {
     font-size: 18px;
   }
 }
 @media (max-width: 767px) {
-  /* line 150, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 150, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--subdesc {
     font-size: 16px;
   }
 }
 @media (max-width: 576px) {
-  /* line 150, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 150, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .section--pad .section--subdesc {
     font-size: 16px;
   }
 }
 
-/* line 167, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 167, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header {
   padding-top: 20px;
   background: url(header_bg.png) no-repeat;
@@ -4445,19 +4457,19 @@ header {
   margin-bottom: 390px;
 }
 @media (max-width: 1024px) {
-  /* line 167, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 167, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header {
     padding-top: 0px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 167, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 167, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header {
     background-size: cover;
   }
 }
 @media (max-width: 1024px) {
-  /* line 167, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 167, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header {
     background-size: cover;
     height: auto;
@@ -4465,24 +4477,24 @@ header {
   }
 }
 @media (max-width: 420px) {
-  /* line 167, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 167, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header {
     background-size: cover;
     height: auto;
     margin-bottom: 160px;
   }
 }
-/* line 189, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 189, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .nav-item {
   margin: 0px 25px;
 }
-/* line 191, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 191, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .nav-item.active a {
   color: #fff;
   font-weight: 700;
   border-bottom: 2px solid #fff;
 }
-/* line 198, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 198, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .nav-item a {
   padding: 10px 0px !important;
   font-family: "Roboto";
@@ -4490,43 +4502,43 @@ header .nav-item a {
   color: #fff;
 }
 @media (max-width: 767px) {
-  /* line 198, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 198, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .nav-item a {
     padding: 8px 0px !important;
   }
 }
-/* line 208, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 208, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .banner-text {
   margin-top: 100px;
   color: #fff;
 }
 @media (max-width: 1024px) {
-  /* line 208, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 208, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text {
     margin-top: 70px;
     margin-bottom: 280px;
   }
 }
 @media (max-width: 991px) {
-  /* line 208, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 208, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text {
     margin-top: 50px;
     margin-bottom: 240px;
   }
 }
 @media (max-width: 767px) {
-  /* line 208, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 208, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text {
     margin-bottom: 50%;
   }
 }
 @media (max-width: 576px) {
-  /* line 208, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 208, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text {
     margin-bottom: 35%;
   }
 }
-/* line 225, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 225, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .banner-text h1 {
   font-size: 40px;
   line-height: 1;
@@ -4534,31 +4546,31 @@ header .banner-text h1 {
   color: inherit;
 }
 @media (max-width: 1024px) {
-  /* line 225, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 225, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text h1 {
     font-size: 30px;
   }
 }
 @media (max-width: 991px) {
-  /* line 225, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 225, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text h1 {
     font-size: 22px;
     margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
-  /* line 225, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 225, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text h1 {
     font-size: 18px;
   }
 }
 @media (max-width: 576px) {
-  /* line 225, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 225, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text h1 {
     font-size: 16px;
   }
 }
-/* line 244, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 244, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .banner-text .site-intent-text {
   margin-bottom: 30px;
   line-height: 1;
@@ -4568,19 +4580,19 @@ header .banner-text .site-intent-text {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 252, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 252, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text .site-intent-text br {
     display: none;
   }
 }
 @media (max-width: 576px) {
-  /* line 244, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 244, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .banner-text .site-intent-text {
     font-size: 14px;
     line-height: 1.3;
   }
 }
-/* line 262, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 262, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .banner-text .banner-btn {
   color: #fff;
   border-radius: 14px;
@@ -4593,24 +4605,24 @@ header .banner-text .banner-btn {
   font-weight: 400;
   transition: background .5s ease;
 }
-/* line 273, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 273, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .banner-text .banner-btn:hover {
   background: #fff;
   color: #a34144;
 }
-/* line 279, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 279, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .slide-btn {
   position: absolute;
   right: 20px;
   bottom: 15px;
   z-index: 999;
 }
-/* line 284, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 284, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .slide-btn.back-btn {
   left: 20px;
 }
 @media (max-width: 767px) {
-  /* line 279, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 279, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .slide-btn {
     left: 0px;
     right: 0px;
@@ -4622,31 +4634,31 @@ header .slide-btn.back-btn {
     text-align: center;
     right: -30px;
   }
-  /* line 295, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 295, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .slide-btn.back-btn {
     right: 0px;
     left: -30px;
   }
 }
 @media (max-width: 576px) {
-  /* line 279, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 279, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .slide-btn {
     bottom: -45%;
   }
 }
 @media (max-width: 420px) {
-  /* line 279, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 279, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .slide-btn {
     bottom: -42%;
   }
 }
 @media (max-width: 360px) {
-  /* line 279, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 279, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .slide-btn {
     bottom: -30%;
   }
 }
-/* line 311, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 311, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .portfolio-slider {
   position: absolute;
   bottom: 35%;
@@ -4656,37 +4668,37 @@ header .portfolio-slider {
   max-width: 1062px;
 }
 @media (max-width: 1199px) {
-  /* line 311, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 311, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .portfolio-slider {
     max-width: 90%;
   }
 }
 @media (max-width: 767px) {
-  /* line 311, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 311, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .portfolio-slider {
     max-width: 100%;
     bottom: 25%;
   }
 }
 @media (max-width: 576px) {
-  /* line 311, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 311, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .portfolio-slider {
     bottom: 25%;
   }
 }
 @media (max-width: 480px) {
-  /* line 311, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 311, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   header .portfolio-slider {
     bottom: 15%;
   }
 }
-/* line 331, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 331, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .portfolio-slider .stack {
   position: relative;
   width: 400px;
   margin: 30px auto;
 }
-/* line 336, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 336, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 header .portfolio-slider .stack > .sheet {
   position: absolute;
   transition: all 300ms ease-in-out;
@@ -4700,21 +4712,21 @@ header .portfolio-slider .stack > .sheet {
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* line 354, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 354, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section {
-  background: url("../images/testimonial/map_bg.png") no-repeat;
+  background: url(testimonial/map_bg.png) no-repeat;
   background-position: center;
   background-size: auto auto;
 }
-/* line 358, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 358, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap-single {
   max-width: 540px;
 }
-/* line 362, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 362, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .details img {
   max-width: 25px;
 }
-/* line 367, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 367, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .dynamic-data p {
   font-size: 18px;
   letter-spacing: 0px;
@@ -4723,14 +4735,14 @@ header .portfolio-slider .stack > .sheet {
   line-height: 1;
 }
 @media (max-width: 991px) {
-  /* line 367, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 367, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .dynamic-data p {
     font-size: 16px;
     padding: 0px 15px;
     line-height: 1.1;
   }
 }
-/* line 379, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 379, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .dynamic-data .author-name {
   font-size: 20px;
   letter-spacing: 0px;
@@ -4739,80 +4751,80 @@ header .portfolio-slider .stack > .sheet {
   font-weight: 400;
 }
 @media (max-width: 991px) {
-  /* line 379, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 379, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .dynamic-data .author-name {
     font-size: 16px;
     padding: 0px 15px;
     line-height: 1.1;
   }
 }
-/* line 392, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 392, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap {
   max-width: 540px;
   margin: 20px auto;
 }
 @media (max-width: 767px) {
-  /* line 392, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 392, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap {
     max-width: 350px;
   }
 }
 @media (max-width: 575px) {
-  /* line 392, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 392, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap {
     max-width: 120px;
   }
 }
-/* line 401, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 401, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap .owl-stage {
   display: inline-flex;
   align-items: center;
 }
 @media (min-width: 576px) {
-  /* line 405, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 405, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap .owl-item {
     max-width: 70px !important;
     margin: 0px 22px !important;
   }
 }
 @media (min-width: 768px) {
-  /* line 405, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 405, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap .owl-item {
     max-width: 77px !important;
     margin: 0px 15px !important;
   }
-  /* line 413, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 413, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap .owl-item .details {
     visibility: hidden;
     position: absolute;
     width: 100%;
   }
 }
-/* line 420, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 420, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap .owl-item.center {
   border: 4px solid #ff4c31;
   padding: 8px;
   border-radius: 100%;
 }
 @media (min-width: 768px) {
-  /* line 420, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 420, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap .owl-item.center {
     width: 160px !important;
     max-width: 150px !important;
   }
 }
 @media (min-width: 576px) {
-  /* line 420, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 420, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .testimonial-section .slide-wrap .owl-item.center {
     width: 120px !important;
     max-width: 140px !important;
   }
 }
-/* line 432, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 432, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap .owl-item.center .details {
   visibility: visible;
 }
-/* line 437, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 437, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap .owl-nav {
   position: absolute;
   top: -20px;
@@ -4824,27 +4836,27 @@ header .portfolio-slider .stack > .sheet {
   align-items: center;
   justify-content: space-between;
 }
-/* line 448, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 448, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .testimonial-section .slide-wrap .owl-nav .owl-prev img {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-/* line 458, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 458, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section {
   background-image: linear-gradient(180deg, #f9f7f5 0%, #ffffff 100%);
 }
-/* line 460, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 460, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section .fetures_head {
   margin-bottom: 80px;
 }
 @media (max-width: 767px) {
-  /* line 460, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 460, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .features-section .fetures_head {
     margin-bottom: 40px;
   }
 }
-/* line 466, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 466, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section .fet_title {
   font-size: 20px;
   line-height: 1;
@@ -4852,41 +4864,41 @@ header .portfolio-slider .stack > .sheet {
   margin-bottom: 10px;
 }
 @media (max-width: 991px) {
-  /* line 466, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 466, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .features-section .fet_title {
     font-size: 18px;
   }
 }
 @media (max-width: 576px) {
-  /* line 466, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 466, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .features-section .fet_title {
     font-size: 16px;
   }
 }
-/* line 478, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 478, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section .min-40 {
   min-width: 40px;
 }
-/* line 481, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 481, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section .fet_desc {
   font-size: 20px;
   line-height: 1;
   color: #7e879d;
 }
 @media (max-width: 991px) {
-  /* line 481, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 481, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .features-section .fet_desc {
     font-size: 18px;
     margin-bottom: 0px;
   }
 }
 @media (max-width: 576px) {
-  /* line 481, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 481, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .features-section .fet_desc {
     font-size: 16px;
   }
 }
-/* line 493, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 493, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .features-section hr {
   width: 49px;
   height: 4px;
@@ -4895,23 +4907,30 @@ header .portfolio-slider .stack > .sheet {
   margin: 20px 0px 20px 0px;
 }
 
-/* line 503, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 503, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section {
   background: url(pricing/Vector-Smart-Object.png) no-repeat;
   background-size: auto;
   position: relative;
   z-index: 5;
-  padding-bottom: 100px !important;
+  padding-bottom: 140px !important;
   background-position: right 60%;
 }
+@media (min-width: 1550px) {
+  /* line 503, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
+  .pricing-section {
+    background-size: 100% 100%;
+    background-position: right bottom;
+  }
+}
 @media (max-width: 991px) {
-  /* line 503, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 503, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section {
     background-size: cover;
     background-position: 22%;
   }
 }
-/* line 514, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 518, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard {
   width: calc(50% - 20px);
   max-width: 406px;
@@ -4922,47 +4941,47 @@ header .portfolio-slider .stack > .sheet {
   box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.09);
 }
 @media (max-width: 767px) {
-  /* line 514, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 518, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section .priceCard {
     width: 100%;
     max-width: 100%;
     margin-bottom: 20px;
   }
 }
-/* line 527, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 531, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard .title {
   color: #ff381a;
 }
-/* line 529, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 533, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard .title .time {
   font-size: 27px;
   margin: 0px 0px 15px;
 }
-/* line 533, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 537, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard .title .price {
   font-size: 17px;
   margin: 0px 0px 35px;
 }
 @media (max-width: 991px) {
-  /* line 514, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 518, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section .priceCard {
     padding: 15px;
   }
-  /* line 541, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 545, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section .priceCard .title .time {
     font-size: 20px;
     margin-bottom: 10px;
   }
 }
-/* line 547, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 551, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard ul {
   list-style: none;
   padding: 0px;
 }
-/* line 550, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 554, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section .priceCard ul li {
   padding-left: 30px;
-  background: url("../images/pricing/check_icon.svg") no-repeat;
+  background: url(pricing/check_icon.svg) no-repeat;
   background-position: 0% 10%;
   background-size: 18px 14px;
   font-size: 18px;
@@ -4972,12 +4991,12 @@ header .portfolio-slider .stack > .sheet {
   margin-bottom: 20px;
 }
 @media (max-width: 991px) {
-  /* line 550, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 554, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section .priceCard ul li {
     font-size: 14px;
   }
 }
-/* line 567, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 571, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section p {
   font-size: 20px;
   color: #ffffff;
@@ -4985,12 +5004,12 @@ header .portfolio-slider .stack > .sheet {
   text-align: center;
 }
 @media (max-width: 991px) {
-  /* line 567, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 571, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   .pricing-section p {
     font-size: 18px;
   }
 }
-/* line 576, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 580, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 .pricing-section a {
   background: #fff;
   padding: 10px 30px;
@@ -5000,14 +5019,14 @@ header .portfolio-slider .stack > .sheet {
   font-size: 15px;
   letter-spacing: 0px;
   color: #ff4c31;
-  font-family: "Brandon Text";
+  font-family: 'uni_neuebold';
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
   text-decoration: none;
 }
 
-/* line 596, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 601, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer {
   position: relative;
   z-index: 1;
@@ -5015,12 +5034,12 @@ footer {
   background: #000;
 }
 @media (max-width: 991px) {
-  /* line 596, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 601, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer {
     padding-bottom: 25px;
   }
 }
-/* line 604, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 609, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer:before {
   content: "";
   position: absolute;
@@ -5028,10 +5047,11 @@ footer:before {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background: url("../images/footer/footer_bg.png") no-repeat;
+  background: url(footer/footer_bg.png) no-repeat;
   background-position: left 100%;
+  background-size: cover;
 }
-/* line 615, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 620, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form {
   background: #fff;
   justify-content: center;
@@ -5041,7 +5061,7 @@ footer .inquiry-form {
   background-color: #ffffff;
 }
 @media (max-width: 576px) {
-  /* line 615, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 620, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form {
     padding: 20px;
     max-width: 350px;
@@ -5050,12 +5070,12 @@ footer .inquiry-form {
   }
 }
 @media (max-width: 360px) {
-  /* line 615, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 620, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form {
     max-width: 300px;
   }
 }
-/* line 631, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 636, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form .form-title {
   font-size: 28px;
   letter-spacing: 0px;
@@ -5063,19 +5083,19 @@ footer .inquiry-form .form-title {
   margin-bottom: 15px;
 }
 @media (max-width: 576px) {
-  /* line 631, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 636, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form .form-title {
     font-size: 22px;
     margin-bottom: 5px;
   }
 }
-/* line 641, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 646, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form form > div:not(:last-child) {
   border-bottom: 1px solid #e1e1e1 !important;
   padding: 8px 0px;
   margin-bottom: 5px;
 }
-/* line 645, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 650, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form form > div:not(:last-child) input {
   font-size: 16px;
   padding: 0px;
@@ -5087,17 +5107,17 @@ footer .inquiry-form form > div:not(:last-child) input {
   font-weight: 600;
 }
 @media (max-width: 576px) {
-  /* line 657, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 662, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form form > div:not(:last-child) {
     padding: 5px 0px;
     margin-bottom: 0px;
   }
-  /* line 660, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 665, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form form > div:not(:last-child) input {
     font-size: 14px;
   }
 }
-/* line 666, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 671, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form .button-wrap button {
   margin-top: 30px;
   width: 178px;
@@ -5113,14 +5133,14 @@ footer .inquiry-form .button-wrap button {
   cursor: pointer;
   transition: all .5s ease;
 }
-/* line 680, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 685, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .inquiry-form .button-wrap button:hover {
   background: #fff;
   color: #f63a1e;
   border-color: #f63a1e;
 }
 @media (max-width: 576px) {
-  /* line 666, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 671, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .inquiry-form .button-wrap button {
     font-size: 12px;
     margin-top: 20px;
@@ -5128,37 +5148,51 @@ footer .inquiry-form .button-wrap button:hover {
     height: 35px;
   }
 }
-/* line 694, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 699, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .left-col {
   max-width: 380px;
 }
 @media (max-width: 991px) {
-  /* line 694, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+  /* line 699, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
   footer .left-col {
     max-width: 100%;
     order: 2;
     margin-top: 50px;
   }
 }
-/* line 701, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 706, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .left-col .logo-wrap {
   padding: 25px 0px;
   border-top: 1px solid #535353;
   border-bottom: 1px solid #535353;
 }
-/* line 706, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 711, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .left-col .mail-wrap {
   font-size: 15px;
   letter-spacing: 0px;
   color: #e0e0e0;
   padding-bottom: 35px;
 }
-/* line 712, /home/tps/sites/TPS/ss_studio_landing/app/assets/stylesheets/style.scss */
+/* line 717, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
 footer .left-col .copyright-wrap {
   font-size: 13px;
   letter-spacing: 0px;
   color: #c0c0c0;
   padding-top: 35px;
+}
+
+/* line 726, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
+label.error {
+  position: absolute;
+  color: #d33;
+  font-size: 12px;
+  top: 100%;
+}
+
+/* line 732, /home/tps/sites/ss_studio_landing/app/assets/stylesheets/style.scss */
+footer .form-group {
+  position: relative;
+  margin-bottom: 25px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
