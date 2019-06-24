@@ -773,7 +773,8 @@ header .portfolio-slider .stack > .sheet {
   font-size: 15px;
   letter-spacing: 0px;
   color: #ff4c31;
-  font-family: "Brandon Text";
+  /*font-family: "Brandon Text";*/
+  font-family: 'uni_neuebold';
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -852,6 +853,18 @@ footer .inquiry-form form > div:not(:last-child) {
 }
 
 footer .inquiry-form form > div:not(:last-child) input {
+  font-size: 16px;
+  padding: 0px;
+  letter-spacing: 1px;
+  color: #555555;
+  border: 0px !important;
+  outline: 0px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-weight: 600;
+}
+
+footer .inquiry-form form > div:not(:last-child) textarea {
   font-size: 16px;
   padding: 0px;
   letter-spacing: 1px;
