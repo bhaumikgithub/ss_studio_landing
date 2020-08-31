@@ -243,12 +243,13 @@
               <div class="d-md-flex justify-content-around">
                   <div class="priceCard">
                       <div class="title text-center">
-                          <h2 class="time unibold">First Year</h2>
-                          <h2 class="price brandonbold"><%= @get_location.first.country === "IN" ? ' FREE' : ' 200 USD' %></h2>
+                          <h2 class="time unibold">Free Plan</h2>
+                          <h2 class="price brandonbold">Free for Lifetime<%#= @get_location.first.country === "IN" ? ' FREE' : ' 200 USD' %></h2>
                       </div>
                       <ul class="plan-list">
                           <li>
-                              Unlimited Photos and Album space
+                            Maximum 10 GB of photos 25 Albums
+                              <!-- Unlimited Photos and Album space -->
                               <!-- (Hosting will remain with us) -->
                           </li>
                           <!-- <li>
@@ -262,17 +263,23 @@
                               Support and help
                           </li>
                           <li>
-                              One year free
+                            Free for Lifetime
+                              <!-- One year free -->
                           </li>
                       </ul>
                   </div>
                   <div class="priceCard">
                       <div class="title text-center">
-                          <h2 class="time unibold">After 1 year Maintenance
+                          <h2 class="time unibold">
+                            Pro Plan
+                            <!-- After 1 year Maintenance -->
                           </h2>
                           <h2 class="price brandonbold"><%= @get_location.first.country === "IN" ? 'Rs. 7,000' : '100 USD' %> per Year</h2>
                       </div>
                       <ul class="plan-list">
+                          <li>
+                            Unlimited Photos and Albums
+                          </li>
                           <li>Unlimited Hosting space<br/>
                               (Hosting will remain with us)
                           </li>
@@ -288,10 +295,15 @@
                       </ul>
                   </div>
               </div>
-              <div class="text-center brandonregular mt-5">
-                  <p class="mb-0">You can cancel subscription anytime. No charge will be applicable.</p>
-                  <div class="mt-5">
+              <div class="brandonregular">
+                  <!-- <p class="mb-0">You can cancel subscription anytime. No charge will be applicable.</p> -->
+                  <div class="row sm-mt-20 mt-4">
+                    <div class="col-md-6 text-center">
                       <a href="<%= "#{ENV['REACT_BASE_URL']}/signup" %>"  class="get_start text-uppercase">Get started  Free! </a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                      <a href="#contact"  class="get_start text-uppercase">Contact Us </a>
+                    </div>
                   </div>
               </div>
           </div>
@@ -307,7 +319,7 @@
                       <div>
                           <%= image_tag "footer/evnvelope.png", class: "img-fluid mr-2 h-auto"%>
                       </div>
-                      <div class="uniregular">info@afterclix.com</div>
+                      <div class="uniregular"><a href="mailto:info@afterclix.com">info@afterclix.com</a></div>
                   </div>
                   <div class="logo-wrap">
                       <%= image_tag "footer/footer_logo.png" %>
@@ -377,6 +389,21 @@
   </div>
 </footer>
 <%#= image_tag 'testimonial/test_slide_arrow.png' %>
+<style type="text/css">
+  .uniregular a {
+    color: #e0e0e0 !important;
+  }
+
+  .get_start {
+    display: inline-block;
+  }
+
+  @media(max-width: 767px) {
+    .sm-mt-20 {
+      margin-top: 20px !important;
+    }
+  }
+</style>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 <script type="text/javascript">
     jQuery.validator.addMethod("equal", function(value, element, param) {
